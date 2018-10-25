@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Marathon/Marathon.iml" filepath="$PROJECT_DIR$/.idea/modules/Marathon/Marathon.iml" group="Marathon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Work-les1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Work-les1_main.iml" group="les1" />
       <module fileurl="file://$PROJECT_DIR$/les1.iml" filepath="$PROJECT_DIR$/les1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Marathon/les1-Marathon.iml" filepath="$PROJECT_DIR$/.idea/modules/Marathon/les1-Marathon.iml" group="Marathon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/les1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/les1_main.iml" group="les1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/les1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/les1_test.iml" group="les1" />
     </modules>
   </component>
 </project>

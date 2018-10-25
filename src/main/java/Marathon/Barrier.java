@@ -59,5 +59,23 @@ class MainCross {
         for (Competitor c : competitors) {
             c.info();
         }
+
+        System.out.println("------------------------------------");
+
+        Competitor[] peopleCompetitors = {new Human("Иван"), new Human("Саша"), new Human("Петр")};
+        Competitor[] catsCompetitors = {new Cat("Мурзик"), new Cat("Муся"), new Cat("Рыжик")};
+        Competitor[] animalsCompetitors = {new Human("Вася"), new Cat("Володя"), new Dog("Шарик"), new Dog("Барбос")};
+
+        Team people = new Team("Люди", peopleCompetitors);
+        Team cats = new Team("Кошаки", catsCompetitors);
+        Team animals = new Team("ANIMALS", animalsCompetitors);
+
+        Course course = new Course("Полоса", barriers);
+        course.doIt(people);
+        course.doIt(cats);
+        course.doIt(animals);
+
+        animals.showResults();
+        animals.showWhoPassedDistance();
     }
 }

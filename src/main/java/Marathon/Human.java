@@ -55,6 +55,11 @@ public class Human implements Competitor {
 
     @Override
     public void info() {
-        System.out.println(name + " " + active);
+        if (active) {
+            System.out.println(name + " прошел дистанцию.");
+        }
+        else{
+            System.out.println(name + " провалил дистанцию.");
+        }
     }
 }
